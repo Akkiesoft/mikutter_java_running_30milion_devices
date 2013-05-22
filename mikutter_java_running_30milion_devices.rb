@@ -8,7 +8,7 @@ Plugin.create(:mikutter_java_running_30milion_devices) do
     visible: true,
     role: :timeline
   ) do
-    strs = <<"30億のデバイスで走るJava"
+    strs = "30億のデバイスで走るJava"
     Post.primary_service.update(:message => strs)
   end
 end
